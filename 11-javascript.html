@@ -1,0 +1,49 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>JavaScript</title>
+
+            <meta charset="utf-8" />
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+            <style type="text/css">
+            
+                
+            </style>
+            
+        </head>
+
+        <body>
+
+            <p>How many fingers am I holding up, between 0-5?</p>
+
+            <p><input type="text" id="guess"><button id="checkGuess">Guess!</button></p>
+
+            <script type="text/javascript">
+
+                // If Statements
+                document.getElementById("checkGuess").onclick = function() {
+
+                    var randomNumber = Math.random();
+
+                    randomNumber = randomNumber * 6;
+
+                    randomNumber = Math.floor(randomNumber);
+
+                    if (document.getElementById("guess").value == randomNumber) {
+
+                        alert("Well done! You got it!")
+
+                    } else {
+
+                        alert("Nope! The number was " + randomNumber);
+
+                    }
+
+                }
+
+            </script>
+
+        </body>
+</html>

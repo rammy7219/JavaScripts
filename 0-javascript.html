@@ -1,0 +1,69 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>JavaScript</title>
+
+            <meta charset="utf-8" />
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            
+        </head>
+
+        <body>
+
+            <button onclick="alert('Hi Rammy!')">Click Me!</button>
+
+             <p id="text">Hello World!</p>
+
+             <button id="myButton">Change text</button>
+
+             <p id="secondParagraph">JavaScript is... </p>
+
+             <button id="changeParagraph">Change text</button>
+            
+            <p id="emptyParagraph"></p>
+
+            <button id="createParagraph">Create text</button>
+
+            <p id="moreText">This is some text</p>
+
+            <button id="styleText">Style Text</button>
+
+             <script type="text/javascript">
+
+                /*
+
+                    Function onclick! 
+                    and change content...
+
+                */
+             
+                // Get Element By ID
+                document.getElementById("myButton").onclick = function() {
+
+                    document.getElementById("text").innerHTML = "Hello Wayne!";
+
+                }
+
+                document.getElementById("changeParagraph").onclick = function() {
+
+                    document.getElementById("secondParagraph").innerHTML = "I think " + document.getElementById("secondParagraph").innerHTML + "awsome!";
+
+                }
+
+                document.getElementById("createParagraph").onclick = function() {
+
+                   document.getElementById("emptyParagraph").innerHTML = "<h1>Hi there!</h1>";
+
+                }
+
+                document.getElementById("styleText").onclick = function() {
+
+                    document.getElementById("moreText").style.fontSize = "50px";
+
+                }
+             
+             </script>
+
+        </body>
+</html>
