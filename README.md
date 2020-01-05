@@ -23,4 +23,6 @@
   <li>17-javascript - Functions</li>
   <li>18-javascript - Functions</li>
   <li>19-javascript - Function/While Loops</li>
+  <li>20-javascript - Test Reactions</li>
+  <li>19-javascript - Test Reactions with external Style and Script files</li>
 </ul>
