@@ -26,4 +26,5 @@
   <li>20-javascript - Test Reactions</li>
   <li>21-javascript - Test Reactions with external Style and Script files</li>
   <li>22-javascript - Using an Event Handler</li>
+  <li>23-javascript - Variables</li>
 </ul>
